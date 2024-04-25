@@ -7,7 +7,21 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="app"></div>
+    <header>
+      <h2>Weather</h2>
+      <form id="searchForm" action="/submit" method="post">
+        <label for="search">Search</label>
+        <input type="text" id="search" name="search" />
+        <input type="submit" value="Submit" />
+      </form>
+    </header>
+    <div id="weather-container">
+      <h1 id="location-name"></h1>
+      <p id="temperature"></p>
+      <p id="condition"></p>
+      <img id="weather-icon" src="" alt="Weather Icon" />
+      <p id="last-updated"></p>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
