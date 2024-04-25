@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Output directories
+dist/
+
+# Environment variables
+.env
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE-specific
+.idea/
+.vscode/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Cache and build files
+.cache/
+build/
+
+# Miscellaneous
+*.swp
+*.swo
+*.swn
